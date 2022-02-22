@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "link": "/",
+      "name": "Home",
+      "aClass": "nav-active"
+    },
+    {
+      "link": "/menu",
+      "name": "Menu",
+      "aClass": "nav-active"
+    },
+    {
+      "link": "/about",
+      "name": "About",
+      "aClass": "nav-active"
+    },
+
+    {
+      "link": "/contacts",
+      "name": "Contact",
+      "aClass": "nav-active"
+    }
+  ]
+}

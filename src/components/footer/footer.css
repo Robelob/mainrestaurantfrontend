@@ -1,0 +1,40 @@
+.footer {
+  margin-top: auto;
+  padding: var(--m-space) var(--s-space);
+  word-break: break-word;
+  background-color: #111;
+}
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 80rem;
+  margin: auto;
+}
+.footer > div, .footer > div a {
+  color: #999;
+  text-decoration: none;
+}
+.footer > div > div:not(:last-child) {
+  margin: 0 0 var(--s-space) 0;
+}
+.footer > div p {
+  margin: 0;
+}
+.footer .dev-info {
+  width: 100%;
+}
+.footer .dev-info a {
+  color: #ccc;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: var(--xl-space);
+  }
+  .footer > div {
+    flex-direction: row;
+  }
+  .footer > div > div:first-child {
+    margin: 0 calc(var(--xl-space) * 2) var(--m-space) 0;
+  }
+}

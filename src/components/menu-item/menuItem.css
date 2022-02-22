@@ -1,0 +1,9 @@
+.menu-item h1,
+.menu-item p {
+  margin: 0;
+}
+.img_res {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
